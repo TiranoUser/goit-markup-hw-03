@@ -239,7 +239,6 @@ img {
 
 .team {
   background: var(--cloud-color);
-  padding-bottom: 32px;
 }
 
 .team__title {
@@ -261,6 +260,7 @@ img {
   width: calc((100% - 72px) / 4);
   text-align: center;
   padding-bottom: 32px;
+  border-radius: 0px 0px 4px 4px;
 }
 .team__photo {
   margin-bottom: 32px;
