@@ -54,6 +54,7 @@ img {
 .btn:focus {
   color: var(--white-color);
   background: var(--primary-brand-color);
+  border-color: transparent;
 }
 
 .visually-hidden {
@@ -192,7 +193,8 @@ img {
 }
 
 .benefits__card {
-  width: calc((100% - 72px) / 4);
+  /* width: calc((100% - 72px) / 4); */
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .benefits__title {
@@ -334,7 +336,7 @@ img {
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--primary-brand-color);
-  padding: 8px 16px;
+  padding: 12px 24px;
   background: var(--cloud-color);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
