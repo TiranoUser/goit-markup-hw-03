@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 :root {
   --white-color: #ffffff;
   --accent-color: #4d5ae5;
@@ -38,6 +39,7 @@ p {
 .footer-link {
   text-decoration: none;
 }
+
 .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -46,6 +48,7 @@ p {
 .li {
   list-style: none;
 }
+
 img {
   display: block;
 }
@@ -98,8 +101,7 @@ img {
   color: var(--primary-brand-color);
 }
 
-.nav-logo__studio {
-}
+.nav-logo__studio {}
 
 .menu {
   font-size: 16px;
@@ -132,6 +134,7 @@ img {
   margin-left: auto;
   align-items: center;
 }
+
 .contacts_email {
   margin-right: 40px;
 }
@@ -139,11 +142,10 @@ img {
 .contacts-link {
   color: var(--slate-text-color);
 }
-.contacts_tel {
-}
 
-.main {
-}
+.contacts_tel {}
+
+.main {}
 
 .section {
   padding-top: 120px;
@@ -155,6 +157,8 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
+  background-image: url(https: //ac.goit.global/img/photo.jpg);
+  ba
 }
 
 .promo__title {
@@ -228,6 +232,7 @@ img {
   color: var(--dark-color);
   margin-bottom: 72px;
 }
+
 .presentation__list {
   display: flex;
   gap: 24px;
@@ -251,10 +256,12 @@ img {
   color: var(--dark-color);
   margin-bottom: 72px;
 }
+
 .team__list {
   display: flex;
   gap: 24px;
 }
+
 .team__item {
   background: var(--white-color);
   width: calc((100% - 72px) / 4);
@@ -262,9 +269,11 @@ img {
   padding-bottom: 32px;
   border-radius: 0px 0px 4px 4px;
 }
+
 .team__photo {
   margin-bottom: 32px;
 }
+
 .team__name {
   font-weight: 700;
   font-size: 20px;
@@ -273,6 +282,7 @@ img {
   color: var(--dark-color);
   margin-bottom: 8px;
 }
+
 .team__job-title {
   font-weight: 400;
   font-size: 16px;
@@ -280,6 +290,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--slate-text-color);
 }
+
 .footer {
   background: var(--dark-color);
   padding-top: 100px;
@@ -342,18 +353,22 @@ img {
   border-radius: 4px;
   cursor: pointer;
 }
+
 .projects {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
 }
+
 .project-item {
   width: calc((100% - 48px) / 3);
 }
+
 .projects-link {
   display: flex;
   flex-direction: column;
+
 }
 
 .projects-content {
@@ -371,6 +386,7 @@ img {
   color: var(--dark-color);
   margin-bottom: 8px;
 }
+
 .project-text {
   font-weight: 400;
   font-size: 16px;
